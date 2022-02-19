@@ -3,7 +3,7 @@
 
 A personal portfolio I created to show case my skills and past projects as a developer.
 
-dominicprzygonski.com
+www.dominicprzygonski.com
 
 
 
