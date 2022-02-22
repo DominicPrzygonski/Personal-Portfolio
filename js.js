@@ -111,19 +111,40 @@ themeButton.addEventListener('click', () => {
 
 /*---Scroll Reveal Animation---*/ 
 const sr = ScrollReveal({
-    origin: 'top',
-    distance: '400px',
-    duration: 2500,
-    delay: 300,
-    reset: true
+    distance: '100px',
+    duration: 2000,
+    delay: 50,
+    viewFactor: 0.3,
+    mobile: false,
+    desktop: true,
+    reset: false
 })
 
-// sr.reveal('.home');
-// sr.reveal('.home__social' , {delay: 600, origin:'left' });
-// sr.reveal('.home__img' , {delay: 600, origin:'right', rotate: {x: 180,z: 20}});
-// sr.reveal('.about', {viewFactor: 0.4, origin:'left', reset: true });
-// sr.reveal('.skills', {viewFactor: 0.4, origin:'right' });
-// sr.reveal('.qualification', {viewFactor: 0.4, origin:'left' });
-// sr.reveal('.project', {viewFactor: 0.4, origin:'right' });
-// sr.reveal('.models', {viewFactor: 0.4, origin:'left' });
+
+
+sr.reveal('.home__data', { origin: 'top' });
+sr.reveal('.home__scroll', { origin: 'left' });
+sr.reveal('.home__social', { origin: 'bottom' });
+sr.reveal('.home__img', { origin: 'right' });
+
+sr.reveal('.about__title', { origin: 'top' });
+sr.reveal('.about__subtitle', { origin: 'top' });
+sr.reveal('.about__description', { origin: 'right' });
+sr.reveal('.about__img', { origin: 'left' })
+sr.reveal('.about__buttons', { origin: 'bottom' })
+
+sr.reveal('.skills', { origin: 'top' });
+sr.reveal('.skillcontent1', { origin: 'left' });
+sr.reveal('.skillcontent2', { origin: 'right' });
+
+sr.reveal('.qulificationsTitle', { origin: 'top' });
+sr.reveal('.qulificationsSubtitle', { origin: 'top' });
+sr.reveal('.qualification__container', { origin: 'bottom' });
+
+sr.reveal('.projectTitle', { origin: 'top' });
+sr.reveal('.projectSubTitle', { origin: 'top' });
+sr.reveal('.card1', { origin: 'left' });
+sr.reveal('.card2', { origin: 'bottom' });
+sr.reveal('.card3', { origin: 'right' });
+sr.reveal('.card4', { origin: 'bottom' });
 
