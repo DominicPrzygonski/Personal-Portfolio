@@ -416,7 +416,7 @@ img{
 .about__description{
     text-align: center;
     margin-bottom:var(--mb-2-5);
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .about__info{
