@@ -7,4 +7,4 @@ www.dominicprzygonski.com
 
 
 
-![App Screenshot](https://drive.google.com/uc?id=1jeH4NGNUx646ynusN9asBAC-FFCD2nL2)
+https://i.imgur.com/8yYGR5P.png
